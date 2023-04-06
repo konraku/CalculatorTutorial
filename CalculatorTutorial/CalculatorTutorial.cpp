@@ -26,7 +26,7 @@ int main()
     Calculator c;
     while (true)
     {
-        //in キーワードは、ユーザーからの入力を受け付けるために使用されます
+        //cin キーワードは、ユーザーからの入力を受け付けるために使用されます
         cin >> x >> oper >> y;
         if (oper=='/' && y==0)
         {
